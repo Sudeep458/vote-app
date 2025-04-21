@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: #f0f0f0;
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 2rem;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #taskForm {
+    display: flex;
+    margin: 1rem 0;
+  }
+  
+  #taskInput {
+    flex: 1;
+    padding: 0.8rem;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #taskForm button {
+    padding: 0.8rem;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .task-list {
+    list-style: none;
+  }
+  
+  .task-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 0.8rem;
+    background: #e9e9e9;
+    border-radius: 5px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
+  
